@@ -18,26 +18,32 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
-              <a href="#home" className="text-foreground hover:text-primary transition-colors px-3 py-2 rounded-md text-sm font-medium">
+            <div className="ml-10 flex items-baseline space-x-1">
+              <a href="#home" className="text-foreground hover:text-primary transition-colors px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/10">
                 Home
               </a>
-              <a href="#services" className="text-muted-foreground hover:text-primary transition-colors px-3 py-2 rounded-md text-sm font-medium">
+              <a href="#services" className="text-muted-foreground hover:text-primary transition-colors px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/10">
                 Services
               </a>
-              <a href="#about" className="text-muted-foreground hover:text-primary transition-colors px-3 py-2 rounded-md text-sm font-medium">
+              <a href="#about" className="text-muted-foreground hover:text-primary transition-colors px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/10">
                 About
               </a>
-              <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors px-3 py-2 rounded-md text-sm font-medium">
+              <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/10">
                 Contact
+              </a>
+              <a href="#portfolio" className="text-muted-foreground hover:text-primary transition-colors px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/10">
+                Portfolio
               </a>
             </div>
           </div>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center gap-3">
+            <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-primary">
+              Sign In
+            </Button>
             <Button variant="default" className="shadow-glow-primary">
-              Get Started
+              Start Project
             </Button>
           </div>
 

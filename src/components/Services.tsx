@@ -47,13 +47,16 @@ const Services = () => {
     <section id="services" className="py-20 bg-gradient-tech">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            <span className="text-foreground">Our </span>
-            <span className="bg-gradient-accent bg-clip-text text-transparent">Services</span>
+          <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
+            What We Build
+          </span>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            Complete Software Solutions for <br />
+            <span className="bg-gradient-accent bg-clip-text text-transparent">Modern Businesses</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We deliver comprehensive software solutions across multiple platforms and technologies, 
-            helping businesses innovate and scale in the digital age.
+            Transform your business with our comprehensive suite of software development services. 
+            Built for scale, designed for success.
           </p>
         </div>
 
