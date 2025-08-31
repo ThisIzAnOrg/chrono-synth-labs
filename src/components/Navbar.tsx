@@ -12,7 +12,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <span className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-              ChronoSynth Labs
+              simtestlab
             </span>
           </div>
 

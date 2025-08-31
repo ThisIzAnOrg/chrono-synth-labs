@@ -7,7 +7,7 @@ const Footer = () => {
     { icon: Github, href: "#", label: "GitHub" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:hello@chronosynth.dev", label: "Email" }
+    { icon: Mail, href: "mailto:hello@simtestlab.com", label: "Email" }
   ];
 
   const footerLinks = {
@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <span className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-                ChronoSynth Labs
+                simtestlab
               </span>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
@@ -89,7 +89,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} ChronoSynth Labs. All rights reserved.
+            © {currentYear} simtestlab. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
