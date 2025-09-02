@@ -45,7 +45,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               <span className="text-foreground">Your business vision,</span>
               <br />
-              <span className="bg-gradient-accent bg-clip-text text-transparent">
+              <span className="text-primary font-extrabold">
                 powered by our expertise
               </span>
             </h1>
