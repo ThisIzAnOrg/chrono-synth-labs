@@ -2,73 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tech-themed dark design system with cyan accents and gradients */
+/* JMK-inspired light theme with cyan-to-green gradient */
 
 @layer base {
   :root {
-    /* Dark tech theme */
-    --background: 222 84% 5%;
-    --foreground: 210 40% 95%;
+    /* Light theme based on JMK design */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
-    --card: 224 71% 8%;
-    --card-foreground: 210 40% 95%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
 
-    --popover: 224 71% 8%;
-    --popover-foreground: 210 40% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 189 100% 50%;
-    --primary-foreground: 222 84% 5%;
+    --primary: 188 94% 50%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 224 71% 12%;
-    --secondary-foreground: 210 40% 95%;
+    --secondary: 210 40% 98%;
+    --secondary-foreground: 222.2 84% 4.9%;
 
-    --muted: 224 71% 12%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 210 40% 98%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 189 100% 50%;
-    --accent-foreground: 222 84% 5%;
+    --accent: 188 94% 50%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 62.8% 50%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 224 71% 15%;
-    --input: 224 71% 12%;
-    --ring: 189 100% 50%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 188 94% 50%;
 
-    /* Tech-specific colors */
-    --tech-primary: 189 100% 50%;
-    --tech-glow: 189 100% 70%;
-    --tech-dark: 222 84% 5%;
-    --tech-surface: 224 71% 8%;
-    --tech-surface-hover: 224 71% 12%;
+    /* JMK-inspired gradient colors */
+    --tech-primary: 188 94% 50%;      /* Cyan */
+    --tech-glow: 188 94% 70%;         /* Light cyan */
+    --tech-dark: 142 76% 36%;         /* Green */
+    --tech-surface: 210 40% 98%;      /* Light surface */
+    --tech-surface-hover: 210 40% 95%; /* Hover surface */
     
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(222 84% 5%), hsl(224 71% 8%));
-    --gradient-accent: linear-gradient(135deg, hsl(189 100% 50%), hsl(200 100% 60%));
-    --gradient-tech: linear-gradient(135deg, hsl(224 71% 8%), hsl(224 71% 12%));
+    /* Beautiful JMK-inspired gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(188 94% 50%), hsl(142 76% 36%));
+    --gradient-accent: linear-gradient(135deg, hsl(188 94% 50%), hsl(142 76% 36%));
+    --gradient-tech: linear-gradient(135deg, hsl(188 94% 50%), hsl(142 76% 36%));
     
-    /* Effects */
-    --glow-primary: 0 0 30px hsl(189 100% 50% / 0.3);
-    --glow-card: 0 4px 30px hsl(189 100% 50% / 0.1);
-    --shadow-tech: 0 10px 50px -10px hsl(222 84% 5% / 0.8);
+    /* Effects using the gradient colors */
+    --glow-primary: 0 0 40px hsl(188 94% 50% / 0.3);
+    --glow-card: 0 0 20px hsl(188 94% 50% / 0.1);
+    --shadow-tech: 0 10px 30px -10px hsl(188 94% 50% / 0.2);
     
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
+    --sidebar-primary: 188 94% 50%;
     --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 210 40% 98%;
+    --sidebar-accent-foreground: 222.2 84% 4.9%;
+    --sidebar-border: 214.3 31.8% 91.4%;
+    --sidebar-ring: 188 94% 50%;
   }
 
   .dark {
@@ -81,7 +74,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
+    --primary: 188 94% 50%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -98,15 +91,15 @@
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --ring: 188 94% 50%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary: 188 94% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 188 94% 50%;
   }
 }
 
